@@ -1,0 +1,88 @@
+
+.head {
+    position: relative;
+    z-index: 1;
+    margin: 4% auto -1% 40%;
+    width: 8.5%;
+    height: 2rem;
+    border: 2px solid blue;
+    background-color: blue;
+    user-select: none;
+    perspective: 1000px;
+}
+
+
+.neck {
+    position: relative;
+    height: fit-content;
+    margin: 0% 11% -1% auto;
+    padding: 0;
+}
+
+.body {
+    position: relative;
+    z-index: 1;
+    width: 10%;
+    height: 3vw;
+    border: 2px solid blue;
+    background-color: blue;
+    perspective: 1000px;
+
+}
+.armR {
+    position: relative;
+    padding: 0;
+    width: fit-content;
+    margin-top: 0%;
+    
+}
+
+.armL {
+    position: relative;
+    padding: 0;
+    width: fit-content;
+    height: 1%;
+    margin-top: 0%;
+    
+}
+
+
+.torso {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto 11% auto auto;
+}
+
+.legContainer {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto 11% auto auto;
+}
+
+.rightLeg {
+    position: relative;
+    padding: 0;
+    width: 2px;
+    height: 2.5vw;
+    border: 2px solid blue;
+    margin: 0% auto auto 47%;
+    background-color: blue;
+
+}
+
+.lightLeg {
+    position: relative;
+    padding: 0;
+    width: 2px;
+    height: 2.5vw;
+    border: 2px solid blue;
+    margin: 0% 47% auto auto;
+    background-color: blue;
+}
+
+
